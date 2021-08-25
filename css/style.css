@@ -1,0 +1,437 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -20px;
+}
+.col-6 {
+    width: 50%;
+    padding: 0 20px;
+}
+.col-4{
+    width: 33.3333%;
+    padding: 0 15px;
+}
+.col-2{
+    width: 16.6666%;
+    padding:  0 10px;
+}
+.col-3{
+    width: 25%;
+    padding: 0 15px;
+}
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 100%;
+}
+.logo{
+    text-align: center;
+}
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+#hero{
+    height: 770px;
+    padding: 40px 0 70px 0;
+    background: url("../img/bg (3).png")  no-repeat center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.hero-title{
+    font-family: "BebasNeueBold", sans-serif;
+    font-size: 40px;
+    line-height: 70px;
+    letter-spacing: 6px;
+    color: white;
+    margin: 318px 0 242px 0;
+}
+.hero-desc{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #ffffff;
+    margin: -250px 0 223px 0;
+}
+.hero-scroll{
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 15px;
+    color: #ffffff;
+   letter-spacing: 3.7px;
+    text-align: center;
+}
+#header{
+    height: 65px;
+    background: #ffffff;
+    border: 1px solid #E6E6E6;
+}
+.header-item{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 1px;
+    color: #485558;
+}
+.header-item:hover{
+    color: #00A4E5;
+}
+.header-item:not(:last-child){
+    margin-right: 39px;
+}
+#capabilities{
+    margin-top: 119px;
+}
+.story-title{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #485558;
+    margin-bottom: 92px;
+    position: relative;
+}
+.story-title:before{
+content: "";
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    background: #00A4E5;
+    left: 0;
+    right: 0;
+    bottom: -10px;
+    margin: auto;
+}
+.story-leftside{
+    padding-right: 122px;
+}
+.story-suptitle{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    align-items: flex-end;
+    letter-spacing: 0.1875px;
+    color: #485558;
+}
+.story-subtitle{
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 0.1875px;
+    color: #485558;
+    margin-top: 30px;
+}
+.story-card{
+    height: 224px;
+    padding: 15px;
+    width: 140px;
+}
+.story-card-text{
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.1875px;
+    color: #ffffff;
+}
+.first-card-bg{
+    background: url("../img/Bitmap.png") center/cover;
+}
+.second-card-bg{
+    background: url("../img/Bitmap (1).png") center/cover;
+}
+.third-card-bg{
+    background: url("../img/Bitmap (3).png") center/cover;
+}
+.capabilities-info{
+    margin-bottom: 76px;
+}
+.capabilities-card{
+    height: 30px;
+    background: white;
+    border: 1px solid #E6E6E6;
+    padding: 38px 22px 39px 23px;
+}
+.capabilities-img{
+    width: 65px;
+    height: 75px;
+}
+.capabilities-card-title{
+    line-height: 24px;
+   width: 310px;
+    color: #485558;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+
+}
+.capabilities-card-second{
+  
+
+    font-family: "Open Sans" , sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+
+    display: flex;
+    align-items: center;
+   padding: 23px 0 13px 0;
+    color: #48555B;
+}
+.capabilities-card-desc{
+    font-size: 13px;
+    line-height: 23px;
+    align-items: center;
+    letter-spacing: 0.1875px;
+    color: #485558;
+}
+.nnn{
+    color: #00A4E5;
+}
+.ccc{
+    background: #FFFFFF;
+    border: 1px solid #E6E6E6;
+    box-sizing: border-box;
+    padding: 38px 23px 39px 22px;
+
+}
+.sad{
+    color: #00A4E5;
+}
+.something{
+    background: url("../img/bg (4).png") no-repeat center/cover;
+    height: 499px;
+    text-align: center;
+    padding: 120px 0 32px 0;
+}
+.something-title{
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.15px;
+    color: #48555B;
+}
+.something-button{
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    background: #00A4E5;
+    text-align: center;
+    border: none;
+    width: 150px;
+    height: 40px;
+    left: 0;
+    top: 0;
+    margin-top: 20px;
+}
+.ent{
+    font-size: 12px;
+    display: flex;
+    height: 40px;
+    text-align: center;
+    letter-spacing: 0.15px;
+    color: #FFFFFF;
+    border: none;
+}
+.ent input{
+    border: none;
+}
+.nevis{
+    padding: 11px 20px;
+}
+.button-reserved{
+    width: 150px;
+    height: 40px;
+    left: 0;
+    top: 0;
+    border: none;
+    color: #FFFFFF;
+    background: #00A4E5;
+}
+.nevis{
+    padding-right: 98px;
+}
+.col-2{
+    width: 25%;
+}
+.content{
+    background:  #171819;
+    padding: 30px 0 30px 0;
+}
+.kon{
+    display: flex;
+    margin-left: 226px;
+}
+.news{
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.846154px;
+    color: #FFFFFF;
+    margin-right: 86px;
+}
+.footer{
+    background: #141A20;
+    padding: 42px 0 40px 0;
+}
+.c{
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: 0.846154px;
+    color: #FFFFFF;
+    padding-bottom: 19px;
+}
+.sit{
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 19px;
+    letter-spacing: 0.85px;
+    color: #FFFFFF;
+    padding-top: 16px;
+}
+.links{
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: 0.846154px;
+    color: #FFFFFF;
+    padding-bottom: 5px;
+}
+.home{
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: 0.846154px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+.home:hover{
+    color: #00A4E5;
+}
+.baker{
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 0.846154px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.social-item{
+    color: #FFFFFF;
+    margin-right: 25px;
+}
+.company{
+    display: flex;
+    margin-left: 100px;
+}
+.company-3{
+    margin-top: 19px;
+    margin-right: 38px;
+}
+.company-4{
+    margin-top: 19px;
+    margin-right: 58px;
+}
+.company-6{
+    margin-top: 16px;
+}
+.company-1{
+    margin-right: 71px;
+}
+.company-2{
+    margin-right: 34px;
+}
+.company-5{
+    margin-right: 58px;
+}
+.inc{
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: 0.846154px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.footer-2{
+    padding: 30px 0 30px 30px;
+    background: #171819;
+}
+.section-title{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 2.30625px;
+    color: #48555B;
+    position: relative;
+    /*margin-right: 155px;*/
+}
+
+.dolor{
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 19px;
+    letter-spacing: 0.2px;
+    color: #48555B;
+    padding-left: 50px;
+}
+.all{
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    background: #00A4E5;
+    width: 150px;
+    height: 40px;
+    border: none;
+}
+.capabilities-info{
+    display: flex;
+    justify-content: space-between;
+}
+.section-title:before{
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    background: #00A4E5;
+    margin: inherit;
+    bottom: -10px;
+    text-align: left;
+}
+#story{
+    padding-top: 57px;
+}
