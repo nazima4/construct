@@ -1,0 +1,319 @@
+@media (max-width: 2400px) {
+
+}
+@media (max-width: 1199px) {
+}
+
+@media (max-width: 991px) {
+    .container{
+        max-width: 890px;
+    }
+}
+@media (max-width: 768px) {
+    .container{
+        max-width: 740px;
+    }
+    .header-nav.show{
+        display: flex;
+        width: 50%;
+        background: #141A20;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 99;
+        height: 100%;
+    }
+    .show{
+        display: flex;
+    }
+    .block{
+        display: block;
+
+    }
+    .header-nav{
+        border: none;
+    }
+    .col-6{
+        padding: 0 15px;
+        width: 100%;
+    }
+    .row{
+        display: flex;
+        align-items: center;
+    }
+    .hero-desc {
+        font-size: 15px;
+    }
+    .story-card{
+        margin-bottom: 12px;
+    }
+    .story-subtitle {
+        font-size: 13px;
+        margin: 35px 0 30px 0;
+    }
+
+    .capabilities-info{
+        flex-direction: column;
+        align-items: center;
+    }
+    .dolor{
+        font-size: 12px;
+        margin: 30px 0 30px 0;
+    }
+    .kon {
+        display: flex;
+        margin-left: -10px;
+        flex-direction: column;
+    }
+    .news{
+        margin-bottom: 15px;
+        font-size: 20px;
+    }
+    .inc{
+        margin-right: 32px;
+        font-size: 12px;
+    }
+    .company{
+        display: flex;
+        flex-direction: column;
+    }
+    .sit{
+        margin-bottom: 19px;
+    }
+    .company-2 {
+        margin: 0 34px 0 0;
+    }
+    .mobile-menu{
+        display: block;
+    }
+    .header-nav{
+        display: none;
+    }
+    .ent{
+        margin-left: 219px;
+    }
+    .button-reserved{
+        width: 130px;
+    }
+}
+@media (max-width: 425px) {
+    .container{
+        max-width: 460px;
+    }
+    .hero-title{
+        text-align: center;
+    }
+    .hero-desc {
+        font-size: 14px;
+    }
+    .header-nav{
+        display: none;
+    }
+    .col-6{
+        padding: 0 15px;
+        width: 100%;
+    }
+    .col-4{
+        padding: 0 15px;
+        width: 100%;
+    }
+    .row{
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+    }
+    .story-subtitle{
+        margin: 35px 0 30px 0;
+    }
+    .capabilities-info{
+        flex-direction: column;
+        align-items: center;
+    }
+    .dolor{
+        font-size: 12px;
+        margin: 30px 0 30px 0;
+    }
+    .ccc{
+        padding: 38px 23px 39px 22px;
+        margin: 0 44px 15px 44px;
+    }
+    .story-card {
+        margin: 0px 0 12px 107px;
+        width: 225px;
+    }
+    .kon {
+        display: flex;
+        margin-left: -10px;
+        flex-direction: column;
+    }
+    .news{
+        margin-bottom: 15px;
+        font-size: 20px;
+    }
+    .nevis {
+        padding-right: 20px;
+    }
+    .inc{
+        margin-right: 32px;
+        font-size: 12px;
+    }
+    .company{
+        display: flex;
+        flex-direction: column;
+    }
+    .sit{
+        margin-bottom: 19px;
+    }
+    .company-2 {
+        margin: 0 34px 0 0;
+    }
+    .mobile-menu{
+        display: block;
+    }
+    .header-nav{
+        display: none;
+    }
+    .ent{
+        margin-left: 62px;
+    }
+    .button-reserved{
+        width: 100px;
+        height: 40px;
+    }
+
+}
+@media (max-width: 375px)
+{
+    .hero-title{
+        font-size: 27px;
+    }
+    .hero-desc {
+        font-size: 12px;
+    }
+.header-nav{
+    display: none;
+}
+    .col-6{
+        padding: 0 15px;
+        width: 100%;
+    }
+    .row{
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        margin-right: 20px;
+    }
+    .story-card {
+        margin: 0 0 12px 71px;
+        width: 225px;
+    }
+    .story-subtitle{
+        margin: 35px 0 30px 0;
+    }
+    .capabilities-info{
+        flex-direction: column;
+        align-items: center;
+    }
+    .dolor{
+        font-size: 12px;
+        margin: 30px 0 30px 0;
+    }
+    .col-4{
+        padding: 0 15px;
+        width: 100%;
+    }
+    .ccc{
+        margin: 0px 0px 15px 40px;
+    }
+    .kon {
+        display: flex;
+        margin-left: -10px;
+        flex-direction: column;
+    }
+    .news{
+        margin-bottom: 15px;
+        font-size: 20px;
+    }
+    .nevis {
+        padding-right: 20px;
+    }
+    .inc{
+        margin-right: 32px;
+        font-size: 12px;
+    }
+    .company{
+        display: flex;
+        flex-direction: column;
+    }
+    .sit{
+        margin-bottom: 19px;
+    }
+    .company-2 {
+        margin: 0 34px 0 0;
+    }
+    .mobile-menu{
+        display: block;
+    }
+    .ent{
+        margin-left: 36px;
+    }
+    .button-reserved{
+        width: 90px;
+        height: 40px;
+    }
+
+}
+@media (max-width: 320px) {
+    .container {
+        max-width: 310px;
+    }
+    .story-card{
+        margin: 0px 0 12px 40px;
+        width: 225px;
+    }
+.hero-desc{
+    font-size: 11px;
+}
+    .kon {
+        display: flex;
+        margin-left: -10px;
+        flex-direction: column;
+    }
+    .news{
+        margin-bottom: 15px;
+        font-size: 20px;
+    }
+    .nevis {
+        padding-right: 20px;
+    }
+    .inc{
+        margin-right: 32px;
+        font-size: 12px;
+    }
+    .company{
+        display: flex;
+        flex-direction: column;
+    }
+    .sit{
+        margin-bottom: 19px;
+    }
+    .company-2 {
+        margin: 0 34px 0 0;
+    }
+    .mobile-menu{
+        display: block;
+    }
+    .block{
+        display: block;
+    }
+    .ent{
+        margin-left: 5px;
+    }
+}
+
+
+
+
